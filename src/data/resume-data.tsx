@@ -91,22 +91,18 @@ export const RESUME_DATA = {
     "Python", "JavaScript", "React", "Node.js", "SQL", "Docker", "Kubernetes", "Azure", "PyTorch", "OpenCV", "Unity", "Airflow", "MSSQL Server", "MySQL", "Firebase",
   ],
   projects: [
-    // {
-    //   title: "Consultly",
-    //   techStack: [
-    //     "Side Project",
-    //     "TypeScript",
-    //     "Next.js",
-    //     "Vite",
-    //     "GraphQL",
-    //     "WebRTC",
-    //   ],
-    //   description: "A platform to build and grow your online business",
-    //   logo: ConsultlyLogo,
-    //   link: {
-    //     label: "consultly.com",
-    //     href: "https://consultly.com/",
-    //   },
-    // },
+    {
+      title: "MedEX",
+      techStack: [
+        "Side Project",
+        "React",
+        "Flask",
+        "sqlite",
+        "Python",
+        "JavaScript",
+        "PyTorch",
+      ],
+      description: "An explainable medical reporting system for chest X-ray images.",
+    },
   ],
 } as const;
