@@ -102,6 +102,10 @@ export const RESUME_DATA = {
         "JavaScript",
         "PyTorch",
       ],
+      link: {
+        label: "MedEX",
+        href: "https://github.com/MIS-MedEX",
+      },
       description: "An explainable medical reporting system for chest X-ray images.",
     },
   ],
