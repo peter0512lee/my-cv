@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   location: "Taipei, Taiwan",
   locationLink: "https://www.google.com/maps/place/%E5%8F%B0%E5%8C%97%E5%B8%82/@25.0856257,121.3963464,11z/data=!3m1!4b1!4m6!3m5!1s0x3442ac6b61dbbd8b:0xbcd1baad5c06a482!8m2!3d25.0329636!4d121.5654268!16zL20vMGZ0a3g?entry=ttu",
   about:
-    "Software Engineer, interested in AI Algorithm and Data Backend Development",
+    "Software Engineer, AI, Data and Backend Development",
   summary:
     "M.S. in Information Systems from National Tsing Hua University. Expert in AI and software engineering, showcased through roles at OmniEyes and TSMC, refining ADAS algorithms and optimizing data processing. Groundbreaking research in computer vision, scholarly publications, and top ranks in hackathons underscore advanced skills in Python, SQL, machine learning, and Docker/CI/CD.",
   avatarUrl: "https://avatars.githubusercontent.com/u/35570826?v=4",
@@ -53,19 +53,19 @@ export const RESUME_DATA = {
       description: 
         "Spearheaded the development and optimization of ADAS (Advanced Driver Assistance Systems) algorithms, achieving a 20\% increase in accuracy. \
         Implemented enhancements that resulted in a reduction of false positives by 15%, enhancing the system’s reliability in real-world scenarios.",
-      skills: ["Python", "Kotlin", "TensorFlow", "OpenCV", "Android", "MongoDB"]
+      skills: ["Python", "Kotlin", "TensorFlow", "OpenCV", "PostgreSQL", "MongoDB", "Serverless", "AWS", "Docker"],
     },
     {
       company: "Taiwan Semiconductor Manufacturing Company (TSMC)",
       link: "https://www.tsmc.com",
       badges: [],
-      title: "Software Engineer",
+      title: "Data Engineer",
       start: "2023.11",
       end: "2024.03",
       description:
         "Led development of 7+ User Requirement Documents aligned with stakeholder needs and project goals. \
         Designed and optimized 50+ ETL pipelines and an Airflow ETL system, achieving significant improvements in efficiency, and query speed.",
-      skills: ["Python", "Pandas", "SQL", "Airflow", "MSSQL Server", "Docker", "Kubernetes"],
+      skills: ["Python", "Pandas", "SQL", "Airflow", "MSSQL Server", "Docker", "Kubernetes", "Azure", "CI/CD"],
     },
     {
       company: "NeuinX",
@@ -81,7 +81,7 @@ export const RESUME_DATA = {
     {
       company: "Multimedia Information System Lab",
       link: "https://mislab.cs.nthu.edu.tw/",
-      badges: ["Min-Chun Hu"],
+      badges: ["Advisor: Min-Chun Hu"],
       title: "Research Assistant",
       start: "2021.04",
       end: "2023.09",
@@ -104,8 +104,7 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Computer Vision", "Data Science", "Data Engineering", "Backend Development",
-    // "Python", "Kotlin", "SQL", "Docker", "CI/CD", "PyTorch", "Airflow", "MSSQL Server", "Android Studio",
+    "Computer Vision", "Machine Learning", "Data Science", "Data Engineering", "Backend Development",
   ],
   projects: [
     {
